@@ -1,0 +1,67 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+
+  }
+  
+  /* Start Page Styles */
+  .start-page {
+    color: #d9f075e5;
+    background-image: url('../assets/PkBall.png'); /* Replace 'background-image-url' with the path to your PNG image */
+    background-size: contain;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .welcome-text {
+    padding: 1rem;
+    border: solid #333 4px;
+    border-radius: 10px;
+    background-color: #333;
+    opacity: 80%;
+  }
+  
+  .start-page h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .start-page p {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    max-width: 600px;
+  }
+  
+  .start-page button {
+    margin: 2rem;
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    background-color: #d9f075e5;
+    border: none;
+    border-radius: 4px;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .start-page button:hover {
+    background-color: #73fc7a;
+  }
+
+  /* app.component.css */
+.loading-spinner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+  }
+  

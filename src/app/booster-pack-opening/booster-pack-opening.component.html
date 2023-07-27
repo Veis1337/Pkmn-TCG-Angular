@@ -1,0 +1,19 @@
+<div class="modal-header">
+  <h4 class="modal-title">Booster Pack Opening</h4>
+  <button type="button" class="close" aria-label="Close" (click)="closeModal()">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+<div class="modal-body">
+  <!-- Display booster pack cards here -->
+  <div class="card-grid">
+    <div class="card-item" *ngFor="let card of boosterPack">
+      <img [src]="card.images.small" alt="Card Image" class="card-image">
+      <p class="card-name">{{ card.name }}</p>
+    </div>
+  </div>
+</div>
+<div class="modal-footer">
+  <button type="button" class="btn btn-secondary" (click)="openBaseSet()">Base Set</button>
+  <button type="button" class="btn btn-secondary" (click)="closeModal()">Close</button>
+</div>

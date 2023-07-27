@@ -1,0 +1,35 @@
+/* booster-pack-opening.component.css */
+.modal-header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+  }
+  
+  .card-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 0.5rem;
+    text-align: center;
+  }
+  
+  .card-image {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .card-name {
+    font-size: 16px;
+    margin-top: 0.5rem;
+  }
+  

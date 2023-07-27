@@ -1,12 +1,16 @@
-<!-- app.component.html -->
-<header>
-  <!-- Your header content goes here -->
-</header>
-
-<main>
-  <router-outlet></router-outlet> <!-- The router-outlet should be placed here -->
-</main>
-
-<footer>
-  <!-- Your footer content goes here -->
-</footer>
+<div class="start-page" *ngIf="!teamBuildingStarted">
+  <div class="welcome-text">
+    <h1>Welcome to the Pokemon Booster Pack Simulator!</h1>
+    <p>
+      Test Your Luck...
+    </p>
+  </div>
+  <!-- Display the loading spinner while waiting for the data -->
+  <div *ngIf="!hasLocalStorageData && isFetchingData" class="loading-spinner">
+    <!-- Replace this with your preferred loading spinner implementation -->
+    Loading...
+  </div>
+  <button (click)="openBoosterPack()" [disabled]="!hasLocalStorageData || isFetchingData">
+    OPEN PACK
+  </button>
+</div>

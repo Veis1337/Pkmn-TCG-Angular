@@ -1,19 +1,22 @@
+// app.module.ts
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
-import { AppRoutingModule } from './app-routing.module'; 
+import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { PkmnCardsComponent } from './pkmn-cards/pkmn-cards.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { BoosterPackOpeningComponent } from './booster-pack-opening/booster-pack-opening.component'; // Import the component here
 
 @NgModule({
   declarations: [
     AppComponent,
-    PkmnCardsComponent
+    BoosterPackOpeningComponent 
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
-    AppRoutingModule 
+    AppRoutingModule,
+    NgbModule 
   ],
   providers: [],
   bootstrap: [AppComponent]

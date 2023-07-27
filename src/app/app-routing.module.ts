@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { PkmnCardsComponent } from './pkmn-cards/pkmn-cards.component';
+import { AppComponent } from './app.component'; // It seems that you have AppComponent here, but you should remove it from the routes.
+import { BoosterPackOpeningComponent } from './booster-pack-opening/booster-pack-opening.component';
 
 const routes: Routes = [
-  { path: 'pokemon-cards', component: PkmnCardsComponent },
-  { path: '', redirectTo: '/pokemon-cards', pathMatch: 'full' },
+  { path: 'booster-pack-opening', component: BoosterPackOpeningComponent }
 ];
 
 @NgModule({
