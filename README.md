@@ -1,27 +1,46 @@
-# Pkmntcg
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.6.
+  # Pokemon Trading Card Game // Angular
 
-## Development server
+  ## License 
+  ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+ 
+  For more information about this license - <https://opensource.org/licenses/MIT> 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+  ## Table of Contents
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contributing](#contributing)
+  - [Testing](#testing)
+  - [License](#license)
+  - [Questions](#questions)
 
-## Code scaffolding
+  ## Description
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+  My motivation for this project was - to better understand Angular.
+  I build this project because - it seemed like an easy introduction to Angular.
+  The problem this project solves is - I can build this app out to further my understanding of how Angular works compared to React.
+  Developing this project I learned - how to set up an Angular app, and use Angular's router to access API's.
 
-## Build
+  ## Installation
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+  To install this project - Navigate to #URL
 
-## Running unit tests
+  ## Usage
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+  To use this project - Navigate to #URL
 
-## Running end-to-end tests
+  ## Contributing
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+  
 
-## Further help
+  ## Testing
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+  ## Questions
+
+  Michael Weiss
+
+  GitHub - https://github.com/Veis1337 
+
+  For any questions regarding this project, feel free to reach out to me at Weissm09@gmail.com 
+  
